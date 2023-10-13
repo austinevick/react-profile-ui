@@ -1,0 +1,348 @@
+#root {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/**** User Info  ****/
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.userInfo .name {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  margin-top: 0.8rem;
+}
+
+.stars {
+  gap: 0.5rem;
+  display: flex;
+}
+
+.stars img {
+  width: 15px;
+}
+
+.stars div {
+  gap: 0.2rem;
+  width: 100%;
+  display: flex;
+}
+
+.stars span {
+  font-weight: bold;
+}
+
+.userInfo .avatar {
+  border-radius: 50%;
+  background-color: #b2ceff;
+  width: 100px;
+  height: 100px;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+
+.contacts div {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.grey {
+  color: grey;
+}
+
+.experience {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.experience div {
+  border-radius: 4px;
+  background-color: #b2ceff;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+}
+
+.contacts img {
+  height: 17px;
+}
+
+.btn-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient();
+  border-radius: 8px;
+  background: linear-gradient(259deg, #0044C0 4.14%, #012466 145.06%);
+  color: white;
+  border: none;
+  width: 100%;
+  margin-top: 16px;
+  gap: 0.5rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.btn-send img {
+  height: 25px;
+}
+
+.hr {
+  width: 100%;
+  background: #e2e0e0;
+  height: 0.1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/***** Summary ******/
+.Summary {
+  margin-top: 20px;
+  border: #d8e3f5 solid 1.5px;
+  border-radius: 14px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 100%;
+}
+
+.Summary .header {
+  border-bottom: #d8e3f5 solid 1.5px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  gap: 16px;
+}
+
+.Summary p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.Summary .header img {
+  height: 25px;
+}
+
+
+/***** Summary ******/
+
+.work-experience {
+  margin-top: 20px;
+  border: #d8e3f5 solid 1.5px;
+  border-radius: 14px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 100%;
+}
+
+.work-experience .header {
+  border-bottom: #d8e3f5 solid 1.5px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  gap: 16px;
+}
+
+.work-experience .header img {
+  height: 25px;
+}
+
+.work-experience .experience-1 {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+}
+
+.work-experience .box {
+  border-radius: 8px;
+  background: #d8e3f5;
+  margin-right: 26px;
+  height: 50px;
+  width: 50px;
+  color: #0044C0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-experience .experience-2 {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+}
+
+/***** Skills ******/
+
+.skills {
+  margin-top: 20px;
+  border: #d8e3f5 solid 1.5px;
+  border-radius: 14px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 100%;
+}
+
+.skills .header {
+  border-bottom: #d8e3f5 solid 1.5px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  gap: 16px;
+}
+
+.skills .list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px;
+  gap: 16px;
+}
+
+.skills .skills-list {
+  border: #0044C0 solid 1.8px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.skills .header img {
+  height: 25px;
+}
+
+
+/***** Job Portfolio ******/
+
+.portfolio {
+  margin-top: 20px;
+  border: #d8e3f5 solid 1.5px;
+  border-radius: 14px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 100%;
+}
+
+.portfolio .header {
+  border-bottom: #d8e3f5 solid 1.5px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  gap: 16px;
+}
+
+.portfolio .header img {
+  height: 25px;
+}
+
+.portfolio .grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+.portfolio .grid img {
+  height: 120px;
+}
+
+
+/***** Ratings ******/
+
+.ratings {
+  margin-top: 20px;
+  border: #d8e3f5 solid 1.5px;
+  border-radius: 14px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 100%;
+}
+
+.ratings .header {
+  border-bottom: #d8e3f5 solid 1.5px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.ratings .header div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ratings .header img {
+  height: 25px;
+}
+
+.ratings .profile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.ratings .profile .img-1 {
+  height: 55px;
+  margin-right: 16px;
+}
+
+.ratings .profile .img-2 {
+  width: 14px;
+  margin-right: 0.2rem;
+}
+
+.profile div:first-child {
+  display: flex;
+}
+
+.ratings button {
+  width: 100%;
+  border: #0044C0 1.8px solid;
+  border-radius: 8px;
+  height: 60px;
+  background-color: transparent;
+  color: #0044C0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.ratings button:hover {
+  background-color: #b2ceff;
+}
